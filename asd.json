@@ -1,0 +1,1749 @@
+{
+  "state": "ok",
+  "size": 1,
+  "version": "2.0",
+  "stamp": "2021-10-18T12:53:58.994Z",
+  "data": [
+    {
+      "domain_uid": "IP_koshenkov",
+      "report_type_uid": "report_check_person_egrip_test@IP_koshenkov",
+      "vehicle_id": " ",
+      "query": {
+        "type": "MULTIPART",
+        "body": " ",
+        "data": {
+          "last_name": "Егоров",
+          "first_name": "Василий",
+          "patronymic": "Олегович",
+          "birth": "22.07.1990",
+          "passport": "0810 937741",
+          "passport_date": "09.08.2010",
+          "inn": "272390186513"
+        },
+        "schema_version": "1.0",
+        "storages": {}
+      },
+      "progress_ok": 9,
+      "progress_wait": 0,
+      "progress_error": 0,
+      "state": {
+        "sources": [
+          {
+            "_id": "check_person/egrip",
+            "state": "SKIP",
+            "data": {
+              "reason": "Не заполнены следующие поля: region"
+            }
+          },
+          {
+            "_id": "check_person/executive_proceeding_site_history",
+            "state": "OK",
+            "data": {}
+          },
+          {
+            "_id": "check_person/pledge",
+            "state": "OK",
+            "data": {}
+          },
+          {
+            "_id": "check_person/egrul_inn",
+            "state": "OK",
+            "data": {}
+          },
+          {
+            "_id": "check_person/egrip_inn",
+            "state": "OK",
+            "data": {}
+          },
+          {
+            "_id": "check_person/egrul",
+            "state": "SKIP",
+            "data": {
+              "reason": "Не заполнены следующие поля: region"
+            }
+          },
+          {
+            "_id": "check_person/vehicle_history",
+            "state": "OK",
+            "data": {}
+          },
+          {
+            "_id": "check_person/wanted_criminal",
+            "state": "OK",
+            "data": {}
+          },
+          {
+            "_id": "check_person/black_list_full",
+            "state": "OK",
+            "data": {}
+          }
+        ],
+        "data": {}
+      },
+      "requested_at": "2021-10-18T12:30:10.932Z",
+      "content": {
+        "check_person": {
+          "egrip": {
+            "src_meta": {
+              "state": "SKIP",
+              "detailed": ""
+            },
+            "items": [
+              {
+                "inn": "272390186513",
+                "activity": {
+                  "main": {
+                    "code": "10.83",
+                    "name": "Производство чая и кофе",
+                    "version": "2014",
+                    "grn": {
+                      "grnip": "320272400007355",
+                      "date": "2020-02-17 19:00:00.000Z"
+                    }
+                  },
+                  "additional": [
+                    {
+                      "code": "46.37",
+                      "name": "Торговля оптовая кофе, чаем, какао и пряностями",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "320272400007355",
+                        "date": "2020-02-17 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "46.90",
+                      "name": "Торговля оптовая неспециализированная",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "421272400189520",
+                        "date": "2021-04-12 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "47.29.35",
+                      "name": "Торговля розничная чаем, кофе, какао в специализированных магазинах",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "320272400007355",
+                        "date": "2020-02-17 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "47.89",
+                      "name": "Торговля розничная в нестационарных торговых объектах и на рынках прочими товарами",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "421272400189520",
+                        "date": "2021-04-12 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "47.91",
+                      "name": "Торговля розничная по почте или по информационно-коммуникационной сети Интернет",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "421272400189520",
+                        "date": "2021-04-12 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "47.99",
+                      "name": "Торговля розничная прочая вне магазинов, палаток, рынков",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "421272400189520",
+                        "date": "2021-04-12 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "77.29",
+                      "name": "Прокат и аренда прочих предметов личного пользования и хозяйственно-бытового назначения",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "320272400007355",
+                        "date": "2020-02-17 19:00:00.000Z"
+                      }
+                    },
+                    {
+                      "code": "81.29.1",
+                      "name": "Дезинфекция, дезинсекция, дератизация зданий, промышленного оборудования",
+                      "version": "2014",
+                      "grn": {
+                        "grnip": "421272400189520",
+                        "date": "2021-04-12 19:00:00.000Z"
+                      }
+                    }
+                  ]
+                },
+                "adr_mzh": {
+                  "rus_address": {
+                    "region_code": "27",
+                    "region": {
+                      "code": "КРАЙ",
+                      "name": "ХАБАРОВСКИЙ"
+                    },
+                    "city": {
+                      "code": "ГОРОД",
+                      "name": "ХАБАРОВСК"
+                    }
+                  },
+                  "grn": {
+                    "grnip": "320272400007355",
+                    "date": "2020-02-17 19:00:00.000Z"
+                  }
+                },
+                "code": "1",
+                "date": "2021-09-06 19:00:00.000Z",
+                "grazhd": {
+                  "type": "1",
+                  "grn": {
+                    "grnip": "320272400007355",
+                    "date": "2020-02-17 19:00:00.000Z"
+                  }
+                },
+                "is_surrogate_inn": false,
+                "is_surrogate_ogrn": false,
+                "last_date": "2021-09-06 19:00:00.000Z",
+                "ogrn": "320272400007355",
+                "ogrn_date": "2020-02-17 19:00:00.000Z",
+                "person": {
+                  "sex": "1",
+                  "fio_rus": {
+                    "last_name": "ЕГОРОВ",
+                    "first_name": "ВАСИЛИЙ",
+                    "patronymic": "ОЛЕГОВИЧ"
+                  },
+                  "grn": {
+                    "grnip": "320272400007355",
+                    "date": "2020-02-17 19:00:00.000Z"
+                  }
+                },
+                "reg_ip": {
+                  "ogrnip": "320272400007355",
+                  "ogrn": "2020-02-17 19:00:00.000Z"
+                },
+                "reg_org": {
+                  "code": "2724",
+                  "name": "Инспекция Федеральной налоговой службы по Железнодорожному району г.Хабаровска",
+                  "addr": ",680021, Хабаровский край,, Хабаровск г,,Станционная ул, 18,,",
+                  "grn": {
+                    "grnip": "320272400007355",
+                    "date": "2020-02-17 19:00:00.000Z"
+                  }
+                },
+                "reg_pension_fund": {
+                  "reg_nom_pension_fund": "037003052900",
+                  "reg_date": "2020-02-19 19:00:00.000Z",
+                  "org_pension_fund": {
+                    "code": "037003",
+                    "name": "Отделение Пенсионного фонда РФ по Южному округу г. Хабаровска"
+                  },
+                  "grn": {
+                    "grnip": "420272400078150",
+                    "date": "2020-02-20 19:00:00.000Z"
+                  }
+                },
+                "register_tax_dep": {
+                  "inn": "272390186513",
+                  "reg_date": "2020-02-17 19:00:00.000Z",
+                  "tax_dep": {
+                    "code": "2723",
+                    "name": "Инспекция Федеральной налоговой службы по Индустриальному району г.Хабаровска"
+                  },
+                  "grn": {
+                    "grnip": "420272400072905",
+                    "date": "2020-02-17 19:00:00.000Z"
+                  }
+                },
+                "type": "Индивидуальный предприниматель",
+                "options": {
+                  "score": 14.43354606628418,
+                  "type": "ip_full_text"
+                },
+                "_id": "272390186513",
+                "_weight": 10
+              }
+            ],
+            "count": 1
+          },
+          "proceeding_v2": {
+            "executive_v2": {
+              "size": 4,
+              "items": [
+                {
+                  "entBdate": "1990-07-22",
+                  "epNumber": "244576/21/27004-ИП",
+                  "name": "ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ",
+                  "epNumberComp": "",
+                  "entBplace": "ГОР. ХАБАРОВСК",
+                  "weType": 3,
+                  "weTypeName": "Акт по делу об административном правонарушении",
+                  "weNumber": "18810127210429001897",
+                  "weDate": "2021-04-29",
+                  "weRisedate": "2021-08-25",
+                  "weSubjType": 37,
+                  "weSubjTypeName": "Штраф ГИБДД",
+                  "weIssuer": "ЦАФАП ОДД ГИБДД УМВД РОССИИ ПО ХАБАРОВСКОМУ КРАЮ",
+                  "bailiffOfficeCode": 27004,
+                  "bailiffOfficeTerotdel": "ОСП по Индустриальному району г.Хабаровска",
+                  "bailiffOfficeAddress": "680038, Россия, Хабаровский край, , г. Хабаровск, , ул. Серышева, 60, , (8 этаж)",
+                  "bailiffName": "ОБИЩАН С. А.",
+                  "bailiffPhone": "+7(4212)39-96-31",
+                  "debtBalanceEp": 0,
+                  "debtBalanceFine": 0,
+                  "debtBalanceDuty": 0,
+                  "debtBalanceOther": 0,
+                  "unloadStatus": "A",
+                  "endDate": "1800-01-01",
+                  "endArticle": "",
+                  "endPoint": "",
+                  "endSubpoint": "",
+                  "isOpen": false
+                },
+                {
+                  "entBdate": "1990-07-22",
+                  "epNumber": "223592/20/27004-ИП",
+                  "name": "ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ",
+                  "epNumberComp": "",
+                  "entBplace": "ГОР. ХАБАРОВСК",
+                  "weType": 1,
+                  "weTypeName": "Исполнительный лист",
+                  "weNumber": "ВС084143904",
+                  "weDate": "2020-09-08",
+                  "weRisedate": "2020-10-19",
+                  "weSubjType": 32,
+                  "weSubjTypeName": "Госпошлина, присужденная судом",
+                  "weIssuer": "СУДЕБНЫЙ УЧАСТОК № 10 ИНДУСТРИАЛЬНОГО РАЙОНА Г. ХАБАРОВСКА",
+                  "bailiffOfficeCode": 27004,
+                  "bailiffOfficeTerotdel": "ОСП по Индустриальному району г.Хабаровска",
+                  "bailiffOfficeAddress": "680038, Россия, Хабаровский край, , г. Хабаровск, , ул. Серышева, 60, , (8 этаж)",
+                  "bailiffName": "ТАКИУЛЛИНА З. Ф.",
+                  "bailiffPhone": "+7(4212)38-12-27",
+                  "debtBalanceEp": 0,
+                  "debtBalanceFine": 0,
+                  "debtBalanceDuty": 0,
+                  "debtBalanceOther": 0,
+                  "unloadStatus": "A",
+                  "endDate": "1800-01-01",
+                  "endArticle": "",
+                  "endPoint": "",
+                  "endSubpoint": "",
+                  "isOpen": false
+                },
+                {
+                  "entBdate": "1990-07-22",
+                  "epNumber": "236023/19/27004-ИП",
+                  "name": "ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ",
+                  "epNumberComp": "",
+                  "entBplace": "680000, РОССИЯ, , , Г ХАБАРОВСК, , , , ,",
+                  "weType": 4,
+                  "weTypeName": "Судебный приказ",
+                  "weNumber": "2А-2811/10-2019",
+                  "weDate": "2019-09-25",
+                  "weRisedate": "2019-11-28",
+                  "weSubjType": 35,
+                  "weSubjTypeName": "Транспортный налог",
+                  "weIssuer": "СУДЕБНЫЙ УЧАСТОК № 10 ИНДУСТРИАЛЬНОГО РАЙОНА Г. ХАБАРОВСКА",
+                  "bailiffOfficeCode": 27004,
+                  "bailiffOfficeTerotdel": "ОСП по Индустриальному району г.Хабаровска",
+                  "bailiffOfficeAddress": "680038, Россия, Хабаровский край, , г. Хабаровск, , ул. Серышева, 60, , (8 этаж)",
+                  "bailiffName": "ПАВЕЛЬЧУК О. Ю.",
+                  "bailiffPhone": "+7(924)926-50-16",
+                  "debtBalanceEp": 0,
+                  "debtBalanceFine": 0,
+                  "debtBalanceDuty": 0,
+                  "debtBalanceOther": 0,
+                  "unloadStatus": "A",
+                  "endDate": "1800-01-01",
+                  "endArticle": "",
+                  "endPoint": "",
+                  "endSubpoint": "",
+                  "isOpen": false
+                },
+                {
+                  "entBdate": "1990-07-22",
+                  "epNumber": "234319/19/27004-ИП",
+                  "name": "ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ",
+                  "epNumberComp": "",
+                  "entBplace": "680000, РОССИЯ, , , Г. ХАБАРОВСК, , , , ,",
+                  "weType": 1,
+                  "weTypeName": "Исполнительный лист",
+                  "weNumber": "ВС084039711",
+                  "weDate": "2019-10-25",
+                  "weRisedate": "2019-11-26",
+                  "weSubjType": 32,
+                  "weSubjTypeName": "Госпошлина, присужденная судом",
+                  "weIssuer": "СУДЕБНЫЙ УЧАСТОК № 10 ИНДУСТРИАЛЬНОГО РАЙОНА Г. ХАБАРОВСКА",
+                  "bailiffOfficeCode": 27004,
+                  "bailiffOfficeTerotdel": "ОСП по Индустриальному району г.Хабаровска",
+                  "bailiffOfficeAddress": "680038, Россия, Хабаровский край, , г. Хабаровск, , ул. Серышева, 60, , (8 этаж)",
+                  "bailiffName": "ПАВЕЛЬЧУК О. Ю.",
+                  "bailiffPhone": "8-924-926-50-16",
+                  "debtBalanceEp": 0,
+                  "debtBalanceFine": 0,
+                  "debtBalanceDuty": 0,
+                  "debtBalanceOther": 0,
+                  "unloadStatus": "A",
+                  "endDate": "1800-01-01",
+                  "endArticle": "",
+                  "endPoint": "",
+                  "endSubpoint": "",
+                  "isOpen": false
+                }
+              ],
+              "openCount": 0,
+              "closeCount": 4,
+              "limitSize": 4,
+              "limitOpenCount": 0,
+              "limitCloseCount": 4
+            },
+            "executive_site_history": {
+              "src_meta": {
+                "state": "OK",
+                "detailed": ""
+              }
+            }
+          },
+          "pledge": {
+            "pledges": [
+              {
+                "number": "2021-006-059593-012",
+                "statusInfo": {
+                  "status": "NEW_PLEDGE",
+                  "title": "Возникновение залога",
+                  "description": "Последнее уведомление - уведомление о возникновении залога (дата договора не истекла)"
+                },
+                "asPledgor": true,
+                "pledgorsLast": [
+                  {
+                    "id": "0810937741",
+                    "pledgeUid": "2021-006-059593-012",
+                    "type": "PERSON",
+                    "person": {
+                      "firstName": "Василий",
+                      "lastName": "Егоров",
+                      "patronymic": "Олегович",
+                      "birth": "1990-07-22",
+                      "passport": {
+                        "series": "0810",
+                        "number": "937741"
+                      },
+                      "address": {
+                        "regionCode": "27",
+                        "regionName": "Хабаровский край"
+                      }
+                    }
+                  }
+                ],
+                "pledgeesLast": [
+                  {
+                    "id": "2721052016",
+                    "pledgeUid": "2021-006-059593-012",
+                    "publicationDisclaimer": "NONE",
+                    "type": "LEGAL",
+                    "orgRussian": {
+                      "name": "Микрокредитная компания \"Фонд поддержки малого предпринимательства Хабаровского края\"",
+                      "ogrn": "1022700913509",
+                      "inn": {
+                        "inn": "2721052016"
+                      }
+                    }
+                  }
+                ],
+                "notificationLast": {
+                  "notificationUid": "2021-006-059593-012",
+                  "pledgeUid": "2021-006-059593-012",
+                  "regTime": "2021-06-11T09:59:00.000",
+                  "notificationType": "NEW_PLEDGE",
+                  "contractName": "Договор залога имущества",
+                  "contractDate": "2021-06-09",
+                  "contractNumber": "21/152-01",
+                  "contractEnd": "2023-06-20",
+                  "contractEndRaw": "20.06.2023"
+                },
+                "subjectsLast": [
+                  {
+                    "id": "WDD2130431A371008",
+                    "type": "VEHICLE",
+                    "vehicle": {
+                      "vin": "WDD2130431A371008",
+                      "description": "Залог автотранспорта марки MERCEDES-BENZ E 200 4MATIC 2017,Идентификационный номер (VIN) - WDD2130431A371008,Наименование (тип ТС) – ЛЕГКОВОЙ,Модель, № двигателя – 2749 2031297528,Шасси (рама) № – ОТСУТСТВУЕТ,Кузов (кабина, прицеп) № - WDD 2130431A371008,Цвет кузова (кабины, прицепа) – БЕЛЫЙ,Регистрационный знак – Р027ВХ27",
+                      "pin": "",
+                      "chassis": "ОТСУТСТВУЕТ",
+                      "body": "WDD2130431A371008"
+                    }
+                  }
+                ],
+                "lastUpdate": 1623473527,
+                "dateActuality": "2021-06-12",
+                "closeTime": 0,
+                "totalSubjectsLast": 1
+              }
+            ],
+            "total": 1,
+            "totalAsPledgee": 0,
+            "totalAsPledgor": 1,
+            "pledgeSizeLimit": 10,
+            "subjectSizeLimit": 100,
+            "src_meta": {
+              "state": "OK",
+              "detailed": ""
+            }
+          },
+          "egrul": {
+            "items": [
+              {
+                "options": {
+                  "score": "28.199491500854492",
+                  "type": "org_full_text"
+                },
+                "last_date": "2021-09-27",
+                "create_date": "2015-07-28",
+                "is_surrogate_inn": false,
+                "is_surrogate_ogrn": false,
+                "file_name": "",
+                "activity_version": "NONE",
+                "resolved_found_capital": -1,
+                "founders_count": -1,
+                "activities_count": -1,
+                "date": "1800-01-01",
+                "ogrn": "1152724005301",
+                "ogrn_date": "1800-01-01",
+                "inn": "2724203425",
+                "kpp": "272401001",
+                "form_type": "ОКОПФ",
+                "form_code": "12300",
+                "name": {
+                  "long": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СОВРЕМЕННЫЕ ЭКОЛОГИЧЕСКИЕ СИСТЕМЫ\"",
+                  "short": "ООО \"СОВРЕМЕННЫЕ ЭКОЛОГИЧЕСКИЕ СИСТЕМЫ\"",
+                  "grn": {
+                    "code": "1152724005301",
+                    "date": "2015-07-28"
+                  }
+                },
+                "address": {
+                  "rus": {
+                    "post_index": "680051",
+                    "region_code": "27",
+                    "kladr": "270000010000604",
+                    "house": "ДОМ 9",
+                    "block": "",
+                    "apartment": "",
+                    "region": {
+                      "code": "КРАЙ",
+                      "name": "ХАБАРОВСКИЙ"
+                    },
+                    "city": {
+                      "code": "ГОРОД",
+                      "name": "ХАБАРОВСК"
+                    },
+                    "street": {
+                      "code": "УЛИЦА",
+                      "name": "ОКРУЖНАЯ"
+                    },
+                    "grn": {
+                      "code": "1152724005301",
+                      "date": "2015-07-28"
+                    }
+                  }
+                },
+                "create_info": {
+                  "ogrn": "1152724005301",
+                  "ogrn_date": "2015-07-28",
+                  "type": {
+                    "code": "11",
+                    "name": "Создание юридического лица"
+                  },
+                  "grn": {
+                    "code": "1152724005301",
+                    "date": "2015-07-28"
+                  }
+                },
+                "register": {
+                  "code": "",
+                  "name": "",
+                  "grn": {
+                    "date": "1800-01-01"
+                  }
+                },
+                "stop": {
+                  "stop_org_date": "2021-09-27",
+                  "sp_stop_org": {
+                    "code": "201",
+                    "name": "Ликвидация юридического лица"
+                  },
+                  "reg_org": {
+                    "code": "2724",
+                    "name": "Инспекция Федеральной налоговой службы по Железнодорожному району г.Хабаровска"
+                  },
+                  "grn": {
+                    "code": "2212700309413",
+                    "date": "2021-09-27"
+                  }
+                },
+                "registration": {
+                  "inn": "2724203425",
+                  "kpp": "272401001",
+                  "reg_date": "2015-07-28",
+                  "tax_dep": {
+                    "code": "2724",
+                    "name": "Инспекция Федеральной налоговой службы по Железнодорожному району г.Хабаровска"
+                  },
+                  "grn": {
+                    "code": "2212700309424",
+                    "date": "2021-09-27"
+                  }
+                },
+                "found_capital": {
+                  "type": "УСТАВНЫЙ КАПИТАЛ",
+                  "sum": 10000,
+                  "grn": {
+                    "code": "1152724005301",
+                    "date": "2015-07-28"
+                  }
+                },
+                "management": [
+                  {
+                    "grn": {
+                      "code": "2212700187577",
+                      "date": "2021-06-18"
+                    },
+                    "person": {
+                      "is_surrogate_inn": false,
+                      "last_name": "ЕГОРОВ",
+                      "first_name": "ВАСИЛИЙ",
+                      "patronymic": "ОЛЕГОВИЧ",
+                      "inn": "272390186513",
+                      "grn": {
+                        "code": "2212700282573",
+                        "date": "2021-09-07"
+                      }
+                    },
+                    "position": {
+                      "type": "02",
+                      "type_name": "Руководитель юридического лица",
+                      "name": "ЛИКВИДАТОР",
+                      "grn": {
+                        "code": "2212700282573",
+                        "date": "2021-09-07"
+                      }
+                    }
+                  }
+                ],
+                "founders": {
+                  "person": [
+                    {
+                      "grn": {
+                        "code": "1152724005301",
+                        "date": "2015-07-28"
+                      },
+                      "person": {
+                        "is_surrogate_inn": false,
+                        "last_name": "ЕГОРОВ",
+                        "first_name": "ВАСИЛИЙ",
+                        "patronymic": "ОЛЕГОВИЧ",
+                        "inn": "272390186513",
+                        "grn": {
+                          "code": "2212700282573",
+                          "date": "2021-09-07"
+                        }
+                      },
+                      "share": {
+                        "nominal": 10000,
+                        "share": {
+                          "percent": 100
+                        },
+                        "grn": {
+                          "code": "1152724005301",
+                          "date": "2015-07-28"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "activity": {
+                  "main": {
+                    "code": "25.12",
+                    "name": "Производство металлических дверей и окон",
+                    "version": "2014",
+                    "grn": {
+                      "code": "1152724005301",
+                      "date": "2015-07-28"
+                    }
+                  },
+                  "additional": [
+                    {
+                      "code": "22.29.2",
+                      "name": "Производство прочих изделий из пластмасс, не включенных в другие группировки, кроме устройств пломбировочных их пластика",
+                      "version": "2014",
+                      "grn": {
+                        "code": "1152724005301",
+                        "date": "2015-07-28"
+                      }
+                    },
+                    {
+                      "code": "22.29.9",
+                      "name": "Предоставление услуг в области производства прочих пластмассовых изделий",
+                      "version": "2014",
+                      "grn": {
+                        "code": "1152724005301",
+                        "date": "2015-07-28"
+                      }
+                    },
+                    {
+                      "code": "25.99.11",
+                      "name": "Производство раковин, моек, ванн и прочих санитарно-технических изделий и их составных частей из черных металлов, меди или алюминия",
+                      "version": "2014",
+                      "grn": {
+                        "code": "1152724005301",
+                        "date": "2015-07-28"
+                      }
+                    },
+                    {
+                      "code": "47.19",
+                      "name": "Торговля розничная прочая в неспециализированных магазинах",
+                      "version": "2014",
+                      "grn": {
+                        "code": "1152724005301",
+                        "date": "2015-07-28"
+                      }
+                    },
+                    {
+                      "code": "72.19",
+                      "name": "Научные исследования и разработки в области естественных и технических наук прочие",
+                      "version": "2014",
+                      "grn": {
+                        "code": "1152724005301",
+                        "date": "2015-07-28"
+                      }
+                    }
+                  ]
+                },
+                "records": [],
+                "clz": "codes.spectrum.xfirm.fns.model.unified.Org",
+                "foundersCount": "1",
+                "_id": "2724203425",
+                "_weight": 10
+              }
+            ],
+            "count": 1,
+            "src_meta": {
+              "state": "SKIP",
+              "detailed": ""
+            }
+          },
+          "egrul_inn": {
+            "src_meta": {
+              "state": "OK",
+              "detailed": ""
+            }
+          },
+          "egrip_inn": {
+            "src_meta": {
+              "state": "OK",
+              "detailed": ""
+            }
+          },
+          "driver_quality_block": {
+            "vehicles": [
+              {
+                "vehicle": {
+                  "marka": "МЕРСЕДЕС-БЕНЦ Е 200 4МАТIС",
+                  "model": "МЕРСЕДЕС-БЕНЦ Е 200 4МАТIС",
+                  "vin": "WDD2130431A371008",
+                  "issueYear": 2017,
+                  "engine": {
+                    "power": {
+                      "kvt": 135.3,
+                      "lc": 183.95
+                    },
+                    "volume": 1991
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 0,
+                    "description": "Белый",
+                    "vehicleBody": "БЕЛЫЙ"
+                  },
+                  "body": "WDD2130431А371008",
+                  "wheel": {
+                    "code": 1,
+                    "description": "С левым рулем"
+                  },
+                  "grzList": [
+                    "Р027ВХ27",
+                    "М500СМ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 3,
+                      "description": "Полноприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "77УО096572"
+                  ],
+                  "stsList": [
+                    "9932395697",
+                    "9932395132"
+                  ]
+                },
+                "startDate": "2021-02-11",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г ХАБАРОВСК",
+                  "age": 31,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "WDD2130431A371008"
+              },
+              {
+                "vehicle": {
+                  "marka": "ВАЗ 2102",
+                  "model": "ВАЗ 2102",
+                  "vin": "",
+                  "issueYear": 1974,
+                  "engine": {
+                    "power": {
+                      "kvt": 48,
+                      "lc": 65.26
+                    },
+                    "volume": 1200
+                  },
+                  "type": {
+                    "code": 21,
+                    "description": "Универсал"
+                  },
+                  "color": {
+                    "code": 9,
+                    "description": "Иные цвета",
+                    "vehicleBody": "КОРАЛЛОВЫЙ"
+                  },
+                  "body": "0113991",
+                  "wheel": {
+                    "code": 1,
+                    "description": "С левым рулем"
+                  },
+                  "grzList": [
+                    "Н027УР27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 2,
+                      "description": "Переднеприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "25ОУ182134"
+                  ],
+                  "stsList": [
+                    "9900306973"
+                  ]
+                },
+                "startDate": "2018-09-21",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г ХАБАРОВСК",
+                  "age": 28,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "0113991"
+              },
+              {
+                "vehicle": {
+                  "marka": "ТОЙОТА ЧАЙЗЕР",
+                  "model": "ТОЙОТА ЧАЙЗЕР",
+                  "vin": "",
+                  "issueYear": 1994,
+                  "engine": {
+                    "power": {
+                      "kvt": 132.4,
+                      "lc": 180.01
+                    },
+                    "volume": 2491
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 8,
+                    "description": "Черный",
+                    "vehicleBody": "ЧЕРНЫЙ"
+                  },
+                  "body": "JZХ1000098045",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "В027СВ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 2,
+                      "description": "Переднеприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "27МТ049903"
+                  ],
+                  "stsList": [
+                    "2749308279"
+                  ]
+                },
+                "startDate": "2017-06-10",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "ХАБАРОВСК Г.",
+                  "age": 27,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "JZХ1000098045"
+              },
+              {
+                "vehicle": {
+                  "marka": "ВАЗ 21070",
+                  "model": "ВАЗ 21070",
+                  "vin": "XTA210700Y1306199",
+                  "issueYear": 1999,
+                  "engine": {
+                    "power": {
+                      "kvt": 38,
+                      "lc": 51.66
+                    },
+                    "volume": 1451
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 6,
+                    "description": "Синий",
+                    "vehicleBody": "СИНЕ-ЗЕЛЕНЫЙ"
+                  },
+                  "body": "ХТА210700У1306199",
+                  "wheel": {
+                    "code": 1,
+                    "description": "С левым рулем"
+                  },
+                  "grzList": [
+                    "М500СМ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 2,
+                      "description": "Переднеприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "27РН924826"
+                  ],
+                  "stsList": [
+                    "9932397453"
+                  ]
+                },
+                "startDate": "2021-02-12",
+                "endDate": "2021-02-12",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г ХАБАРОВСК",
+                  "age": 31,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "XTA210700Y1306199"
+              },
+              {
+                "vehicle": {
+                  "marka": "МЕРСЕДЕС-БЕНЦ Е 300 4МАТIС",
+                  "model": "МЕРСЕДЕС-БЕНЦ Е 300 4МАТIС",
+                  "vin": "WDD2120801A811816",
+                  "issueYear": 2013,
+                  "engine": {
+                    "power": {
+                      "kvt": 183.1,
+                      "lc": 248.94
+                    },
+                    "volume": 3498
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 11,
+                    "description": "",
+                    "vehicleBody": "СЕРЫЙ"
+                  },
+                  "body": "WDD2120801А811816",
+                  "wheel": {
+                    "code": 1,
+                    "description": "С левым рулем"
+                  },
+                  "grzList": [
+                    "У216ХН27",
+                    "Р027ВХ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 3,
+                      "description": "Полноприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "77УН500133"
+                  ],
+                  "stsList": [
+                    "9919749925",
+                    "9914358409"
+                  ]
+                },
+                "startDate": "2020-02-18",
+                "endDate": "2020-07-11",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г ХАБАРОВСК",
+                  "age": 30,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "WDD2120801A811816"
+              },
+              {
+                "vehicle": {
+                  "marka": "ЛЕКСУС IS250",
+                  "model": "ЛЕКСУС IS250",
+                  "vin": "JTHBF5D2405033438",
+                  "issueYear": 2014,
+                  "engine": {
+                    "power": {
+                      "kvt": 153,
+                      "lc": 208.02
+                    },
+                    "volume": 2500
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 8,
+                    "description": "Черный",
+                    "vehicleBody": "ЧЕРНЫЙ"
+                  },
+                  "body": "JТНВF5D2405033438",
+                  "wheel": {
+                    "code": 1,
+                    "description": "С левым рулем"
+                  },
+                  "grzList": [
+                    "Р641ЕМ777"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 2,
+                      "description": "Переднеприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "78УУ214545"
+                  ],
+                  "stsList": [
+                    "9900309954"
+                  ]
+                },
+                "startDate": "2018-10-03",
+                "endDate": "2019-03-01",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г ХАБАРОВСК",
+                  "age": 28,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "JTHBF5D2405033438"
+              },
+              {
+                "vehicle": {
+                  "marka": "ВАЗ21074",
+                  "model": "ВАЗ21074",
+                  "vin": "XTA21074052177990",
+                  "issueYear": 2005,
+                  "engine": {
+                    "power": {
+                      "kvt": 55,
+                      "lc": 74.78
+                    },
+                    "volume": 1568
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 0,
+                    "description": "Белый",
+                    "vehicleBody": "БЕЛЫЙ"
+                  },
+                  "body": "ХТА21074052177990",
+                  "wheel": {
+                    "code": 1,
+                    "description": "С левым рулем"
+                  },
+                  "grzList": [
+                    "А636РЕ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 4,
+                      "description": "Иные"
+                    }
+                  },
+                  "ptsList": [
+                    "63МА822318"
+                  ],
+                  "stsList": [
+                    "2740001199"
+                  ]
+                },
+                "startDate": "2015-12-09",
+                "endDate": "2017-10-26",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г.ХАБАРОВСК",
+                  "age": 25,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "XTA21074052177990"
+              },
+              {
+                "vehicle": {
+                  "marka": "ТОЙОТА КРАУН",
+                  "model": "ТОЙОТА КРАУН",
+                  "vin": "",
+                  "issueYear": 1985,
+                  "engine": {
+                    "power": {
+                      "kvt": 132,
+                      "lc": 179.47
+                    },
+                    "volume": 2490
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 8,
+                    "description": "Черный",
+                    "vehicleBody": "ЧЕРНЫЙ"
+                  },
+                  "body": "",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "Н373ТН27",
+                    "В027СВ27"
+                  ],
+                  "category": "В",
+                  "rama": "МS120006523",
+                  "gear": {
+                    "type": {
+                      "code": 2,
+                      "description": "Переднеприводной"
+                    }
+                  },
+                  "ptsList": [
+                    "27ОО740411"
+                  ],
+                  "stsList": [
+                    "2747396526",
+                    "2747379706"
+                  ]
+                },
+                "startDate": "2016-11-17",
+                "endDate": "2017-03-11",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "ХАБАРОВСК Г.",
+                  "age": 26,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "МS120006523"
+              },
+              {
+                "vehicle": {
+                  "marka": "NISSАN СUВЕ",
+                  "model": "NISSАN СUВЕ",
+                  "vin": "",
+                  "issueYear": 2002,
+                  "engine": {
+                    "power": {
+                      "kvt": 72,
+                      "lc": 97.89
+                    },
+                    "volume": 1386
+                  },
+                  "type": {
+                    "code": 22,
+                    "description": "Комби (хэтчбек)"
+                  },
+                  "color": {
+                    "code": 1,
+                    "description": "Желтый",
+                    "vehicleBody": "ЖЕЛТЫЙ"
+                  },
+                  "body": "ВZ11032075",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "Н440МС27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 4,
+                      "description": "Иные"
+                    }
+                  },
+                  "ptsList": [
+                    "25ТХ085159"
+                  ],
+                  "stsList": [
+                    "2726724196"
+                  ]
+                },
+                "startDate": "2014-10-11",
+                "endDate": "2015-05-12",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г.ХАБАРОВСК",
+                  "age": 24,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "ВZ11032075"
+              },
+              {
+                "vehicle": {
+                  "marka": "ТОУОТА-СНАSЕR",
+                  "model": "ТОУОТА-СНАSЕR",
+                  "vin": "",
+                  "issueYear": 1991,
+                  "engine": {
+                    "power": {
+                      "kvt": 147.1,
+                      "lc": 200
+                    },
+                    "volume": 2491
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 8,
+                    "description": "Черный",
+                    "vehicleBody": "ЧЕРНЫЙ"
+                  },
+                  "body": "JZХ1000029566",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "В429НХ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 4,
+                      "description": "Иные"
+                    }
+                  },
+                  "ptsList": [
+                    "27МР427214"
+                  ],
+                  "stsList": [
+                    "27ХУ414623"
+                  ]
+                },
+                "startDate": "2012-07-14",
+                "endDate": "2014-04-22",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г.ХАБАРОВСК",
+                  "age": 22,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "JZХ1000029566"
+              },
+              {
+                "vehicle": {
+                  "marka": "ТОУОТА СОRОLLА",
+                  "model": "ТОУОТА СОRОLLА",
+                  "vin": "",
+                  "issueYear": 1989,
+                  "engine": {
+                    "power": {
+                      "kvt": 64.72,
+                      "lc": 87.99
+                    },
+                    "volume": 1498
+                  },
+                  "type": {
+                    "code": 21,
+                    "description": "Универсал"
+                  },
+                  "color": {
+                    "code": 9,
+                    "description": "Иные цвета",
+                    "vehicleBody": "ЧЕРНЫЙ-ЧЕРНЫЙ-СЕРЫЙ"
+                  },
+                  "body": "АЕ910139970",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "В310ТЕ27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 4,
+                      "description": "Иные"
+                    }
+                  },
+                  "ptsList": [
+                    "25МА026869"
+                  ],
+                  "stsList": [
+                    "2704294324"
+                  ]
+                },
+                "startDate": "2012-12-11",
+                "endDate": "2013-08-13",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "ХАБАРОВСК Г",
+                  "age": 22,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "АЕ910139970"
+              },
+              {
+                "vehicle": {
+                  "marka": "ТОУОТА-РRОВОХ",
+                  "model": "ТОУОТА-РRОВОХ",
+                  "vin": "",
+                  "issueYear": 2009,
+                  "engine": {
+                    "power": {
+                      "kvt": 77.23,
+                      "lc": 105
+                    },
+                    "volume": 1496
+                  },
+                  "type": {
+                    "code": 21,
+                    "description": "Универсал"
+                  },
+                  "color": {
+                    "code": 0,
+                    "description": "Белый",
+                    "vehicleBody": "БЕЛЫЙ"
+                  },
+                  "body": "NСР550074860",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "АВ195Х27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 4,
+                      "description": "Иные"
+                    }
+                  },
+                  "ptsList": [
+                    "25УР596899"
+                  ],
+                  "stsList": [
+                    "НЕВЫДАНО"
+                  ]
+                },
+                "startDate": "2012-08-07",
+                "endDate": "2012-08-07",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "ХАБАРОВСК Г",
+                  "age": 22,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "NСР550074860"
+              },
+              {
+                "vehicle": {
+                  "marka": "ТОУОТА СОRОLLА АХIО",
+                  "model": "ТОУОТА СОRОLLА АХIО",
+                  "vin": "",
+                  "issueYear": 2008,
+                  "engine": {
+                    "power": {
+                      "kvt": 80.91,
+                      "lc": 110.01
+                    },
+                    "volume": 1496
+                  },
+                  "type": {
+                    "code": 23,
+                    "description": "Седан"
+                  },
+                  "color": {
+                    "code": 0,
+                    "description": "Белый",
+                    "vehicleBody": "БЕЛЫЙ"
+                  },
+                  "body": "NZЕ1416102056",
+                  "wheel": {
+                    "code": 2,
+                    "description": "С правым рулем"
+                  },
+                  "grzList": [
+                    "АВ119А27"
+                  ],
+                  "category": "В",
+                  "rama": "",
+                  "gear": {
+                    "type": {
+                      "code": 4,
+                      "description": "Иные"
+                    }
+                  },
+                  "ptsList": [
+                    "25УВ345901"
+                  ],
+                  "stsList": [
+                    "НЕВЫДАНО"
+                  ]
+                },
+                "startDate": "2011-11-08",
+                "endDate": "2011-11-08",
+                "gai": {
+                  "region": "Хабаровский край",
+                  "regionCode": 1108
+                },
+                "ownerInformation": {
+                  "gender": "MALE",
+                  "city": "Г.ХАБАРОВСК",
+                  "age": 21,
+                  "region": {
+                    "code": 1108,
+                    "name": "Хабаровский край"
+                  },
+                  "owner": {
+                    "code": 2,
+                    "name": "Физическое лицо"
+                  }
+                },
+                "_id": "NZЕ1416102056"
+              }
+            ],
+            "vehicle_count": 13,
+            "vehicle_current_count": 3,
+            "isVehicleHistory": true,
+            "driver": {
+              "passport": {}
+            },
+            "src_meta": {
+              "state": "OK",
+              "detailed": ""
+            }
+          },
+          "wanted": {
+            "items": [],
+            "count": 0,
+            "src_meta": {
+              "state": "OK",
+              "detailed": ""
+            }
+          },
+          "black_list": {
+            "items": [
+              {
+                "info": {
+                  "code": "3.6",
+                  "title": "В отношении проверяемого физлица найдены данные об исполнительном производстве ",
+                  "groupcode": "koap",
+                  "groupname": "Административная отвественность",
+                  "description": ""
+                },
+                "value": 1,
+                "level": "HIGH"
+              },
+              {
+                "info": {
+                  "code": "9.1,1",
+                  "title": "Паспортные данные подтверждены (найдена информация о принадлежности физлицу указанного им паспорта)",
+                  "groupcode": "identification",
+                  "groupname": "Идентификация физического лица",
+                  "description": ""
+                },
+                "value": 1,
+                "level": "GOOD"
+              },
+              {
+                "info": {
+                  "code": "9.6,1",
+                  "title": "ИНН подтвержден (найдена информация о том, что физлицо имеет заданный в запросе ИНН)",
+                  "groupcode": "identification",
+                  "groupname": "Идентификация физического лица",
+                  "description": ""
+                },
+                "value": 1,
+                "level": "GOOD"
+              }
+            ],
+            "html": "<div class=\"js_section\">  \n <h3 data-count=\"1\" class=\"bg  bg-error\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит негативную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>РФ_ССП_ФЛ+ИП</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ИНСКИЙ 13 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Документ</td> \n     <td> <p><span>0810937741</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНН</td> \n     <td> <p><u>272390186513</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">СНИЛС</td> \n     <td> <p><span>15393982304</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp-multi stuck\"> \n   <tbody> \n    <tr> \n     <th colspan=\"3\">Исполнительное производство</th> \n    </tr> \n    <tr> \n     <td class=\"numered text-center\" rowspan=\"7\">1.</td> \n     <td class=\"legend\">Дата исполнительного производства</td> \n     <td> <p>01.03.2018</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Орган подразделения ФССП</td> \n     <td> <p>ОСП по Индустриальному району г.Хабаровска</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">№ исполнительного производства</td> \n     <td> <p>20270/18/27004-ИП</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Вид исполнительного производства</td> \n     <td> <p>Госпошлина, присужденная судом</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Долг</td> \n     <td> <p>200</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">ОКАТО</td> \n     <td> <p>08</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Регион</td> \n     <td> <p>Хабаровский край</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp-multi stuck\"> \n   <tbody> \n    <tr> \n     <td class=\"numered text-center\" rowspan=\"8\">2.</td> \n     <td class=\"legend\">Дата исполнительного производства</td> \n     <td> <p>24.10.2019</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Орган подразделения ФССП</td> \n     <td> <p>ОСП по Индустриальному району г.Хабаровска</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">№ исполнительного производства</td> \n     <td> <p>234319/19/27004-ИП</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Вид исполнительного производства</td> \n     <td> <p>Причина отсутствует</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Долг</td> \n     <td> <p>200</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Статус</td> \n     <td> <p>ФЛ</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">ОКАТО</td> \n     <td> <p>08</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Регион</td> \n     <td> <p>Хабаровский край</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp-multi stuck\"> \n   <tbody> \n    <tr> \n     <td class=\"numered text-center\" rowspan=\"8\">3.</td> \n     <td class=\"legend\">Дата исполнительного производства</td> \n     <td> <p>24.10.2019</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Орган подразделения ФССП</td> \n     <td> <p>ОСП по Индустриальному району г.Хабаровска</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">№ исполнительного производства</td> \n     <td> <p>236023/19/27004-ИП</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Вид исполнительного производства</td> \n     <td> <p>Причина отсутствует</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Долг</td> \n     <td> <p>6270</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Статус</td> \n     <td> <p>ФЛ</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">ОКАТО</td> \n     <td> <p>08</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Регион</td> \n     <td> <p>Хабаровский край</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp-multi stuck\"> \n   <tbody> \n    <tr> \n     <td class=\"numered text-center\" rowspan=\"8\">4.</td> \n     <td class=\"legend\">Дата исполнительного производства</td> \n     <td> <p>08.09.2020</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Орган подразделения ФССП</td> \n     <td> <p>ОСП по Индустриальному району г.Хабаровска</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">№ исполнительного производства</td> \n     <td> <p>223592/20/27004-ИП</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Вид исполнительного производства</td> \n     <td> <p>Причина отсутствует</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Долг</td> \n     <td> <p>200</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Статус</td> \n     <td> <p>ФЛ</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">ОКАТО</td> \n     <td> <p>08</p> </td> \n    </tr> \n    <tr data-spanned=\"1\"> \n     <td class=\"legend\">Регион</td> \n     <td> <p>Хабаровский край</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"4\" class=\"bg  bg-error\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит негативную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>РФ_Исполнительное производство_2017</h3> \n <h5>Ответ № 1</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион</td> \n     <td> <p><span>27</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Исполнительное производство</td> \n     <td> <p><span>45778/13/04/27 от 27.05.2013</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Реквизиты ИП</td> \n     <td> <p><span>Акт по делам об административных правонарушениях от 30.11.2012 № 27КЕ211322</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Предмет исполнения</td> \n     <td> <p><span>Штраф гибдд: 500 руб.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Отдел судебных приставов</td> \n     <td> <p><span>ОСП по Индустриальному району г.Хабаровска 680006 г. Хабаровск, ул. Краснореченская, д. 92</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Судебый пристав-исполнитель</td> \n     <td> <p><span>ЖЕРЕБЦОВА П. А.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Статус</td> \n     <td> <p><span>АРХИВ</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h5>Ответ № 2</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион</td> \n     <td> <p><span>27</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Исполнительное производство</td> \n     <td> <p><span>77735/13/04/27 от 17.09.2013</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Реквизиты ИП</td> \n     <td> <p><span>Акт по делам об административных правонарушениях от 09.04.2013 № 27КЕ156973</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Предмет исполнения</td> \n     <td> <p><span>Штраф гибдд: 500 руб.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Отдел судебных приставов</td> \n     <td> <p><span>ОСП по Индустриальному району г.Хабаровска 680006 г. Хабаровск, ул. Краснореченская, д. 92</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Судебый пристав-исполнитель</td> \n     <td> <p><span>ЖЕРЕБЦОВА П. А.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Статус</td> \n     <td> <p><span>АРХИВ</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h5>Ответ № 3</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион</td> \n     <td> <p><span>27</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Исполнительное производство</td> \n     <td> <p><span>87947/15/27004-ИП от 06.11.2015</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Реквизиты ИП</td> \n     <td> <p><span>Судебный приказ от 11.08.2015 № 2-1436/10-2015</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Предмет исполнения</td> \n     <td> <p><span>Транспортный налог: 6045 руб.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Отдел судебных приставов</td> \n     <td> <p><span>ОСП по Индустриальному району г.Хабаровска</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Судебый пристав-исполнитель</td> \n     <td> <p><span>САЛИНОВСКАЯ Е. В.</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h5>Ответ № 4</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион</td> \n     <td> <p><span>27</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Исполнительное производство</td> \n     <td> <p><span>8268/16/27004-ИП от 26.01.2016</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Реквизиты ИП</td> \n     <td> <p><span>Акт по делам об административных правонарушениях от 31.03.2015 № 18810027130002660954</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Предмет исполнения</td> \n     <td> <p><span>Штраф гибдд: 500 руб.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Отдел судебных приставов</td> \n     <td> <p><span>ОСП по Индустриальному району г.Хабаровска</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Судебый пристав-исполнитель</td> \n     <td> <p><span>ГРИГОРЬЕВА С. А. 74212463264</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>ЕГРЮЛ</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНН</td> \n     <td> <p><u>272390186513</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>680007, Хабаровский край Хабаровск г Инский пер дом 13 кв. 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Телефон</td> \n     <td> <p><span>+7 (914) 2007900</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>ЕГРИП</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНН</td> \n     <td> <p><u>272390186513</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ОГРНИП</td> \n     <td> <p><span>320272400007355</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Тип</td> \n     <td> <p><span>ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ОКВЭД основной</td> \n     <td> <p><span>ПРОИЗВОДСТВО ЧАЯ И КОФЕ</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата создания</td> \n     <td> <p><span>18.02.2020 г.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регистрирующий орган</td> \n     <td> <p><span>ИНСПЕКЦИЯ ФЕДЕРАЛЬНОЙ НАЛОГОВОЙ СЛУЖБЫ ПО ЖЕЛЕЗНОДОРОЖНОМУ РАЙОНУ Г.ХАБАРОВСКА</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Статус</td> \n     <td> <p><span>ДЕЙСТВУЮЩЕЕ</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата актуальности</td> \n     <td> <p><span>07.09.2021 г.</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>РФ_ИНН</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНН</td> \n     <td> <p><u>272390186513</u></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"4\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>РФ_ФЛ</h3> \n <h5>Ответ № 1</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">Дата актуальности</td> \n     <td> <p><span>06.08.2021 г.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт РФ</td> \n     <td> <p><u>0821738095</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес регистрации</td> \n     <td> <p><span>РПЫАРПЫАРПА РАВПРА 5</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион регистрации</td> \n     <td> <p><span>Хабаровский край</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h5>Ответ № 2</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">Дата актуальности</td> \n     <td> <p><span>04.10.2019 г.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт РФ</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес регистрации</td> \n     <td> <p><span>ХАБАРОВСК ХАБАРОВСКИЙ КРАЙ ИНСКИЙ 13</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион регистрации</td> \n     <td> <p><span>Москва и МО</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Наименование места работы</td> \n     <td> <p><span>СОВРЕМЕННЫЕ ЭКОЛОГИЧЕСКИЕ СИСТЕМЫ</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНН места работы</td> \n     <td> <p><span>2724203425</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h5>Ответ № 3</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">Дата актуальности</td> \n     <td> <p><span>29.07.2015 г.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт РФ</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h5>Ответ № 4</h5> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">Дата актуальности</td> \n     <td> <p><span>07.07.2015 г.</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт РФ</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес регистрации</td> \n     <td> <p><span>ХАБАРОВСКИЙ КРАЙ ХАБАРОВСК ИНСКИЙ 13 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион регистрации</td> \n     <td> <p><span>Хабаровский край</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Наименование места работы</td> \n     <td> <p><span>ООО \"ХСТ\"</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНН места работы</td> \n     <td> <p><span>2725126131</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">ОГРН места работы</td> \n     <td> <p><span>1132722008264</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Телефон места работы</td> \n     <td> <p><span>421 2457950</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес места работы</td> \n     <td> <p><span>ХАБАРОВСКИЙ КРАЙ ХАБАРОВСК</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Регион места работы</td> \n     <td> <p><span>Хабаровский край</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>РФ_Авиабилеты</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ИНСКИЙ 13 ТОГУ СТУД 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Старый паспорт</td> \n     <td> <p><u>0804429728</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Документ</td> \n     <td> <p><span>0810937741 ОТД. УФМС РОССИ ПО ХАБАРОВСКОМУ КРАЮ В ИНДУСТРИА 09.08.2010</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Телефоны</td> \n     <td> <p><span>9145447499</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp stuck\"> \n   <tbody> \n    <tr> \n     <th colspan=\"2\">Авиабилеты</th> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНФ</td> \n     <td> <p>ДАТА РЕЙСА: 04.10.2015; ОТКУДА: ШЕРЕМЕТЬЕВО МОСКВА РОССИЯ; КУДА: ХАБАРОВСК РОССИЯ; НОМЕР РЕЙСА: 1712; АВИАКОМПАНИЯ: АЭРОФЛОТ-РОССИЙСКИЕ АВИАЛИНИИ AFL SU РОССИЯ АЭР</p> <p>ДАТА РЕЙСА: 21.09.2015; ОТКУДА: ВЛАДИВОСТОК РОССИЯ; КУДА: ШЕРЕМЕТЬЕВО МОСКВА РОССИЯ; НОМЕР РЕЙСА: 1701; АВИАКОМПАНИЯ: АЭРОФЛОТ-РОССИЙСКИЕ АВИАЛИНИИ AFL SU РОССИЯ АЭР</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>РФ_Телефоны_2015</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ИНСКИЙ 13 ТОГУ СТУД 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Старый паспорт</td> \n     <td> <p><u>0804429728</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Документ</td> \n     <td> <p><span>0810937741 ОТД. УФМС РОССИ ПО ХАБАРОВСКОМУ КРАЮ В ИНДУСТРИА 09.08.2010</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Телефоны</td> \n     <td> <p><span>9145447499</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе объединены данные из нескольких информационных массивов. Названия массивов перечислены через &quot;;&quot; \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>Хабаровск_Жители_2004; Хабаровск_Жители_2009</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ГЕРАСИМОВА 5 ШК 30 32</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>04ДВ279669</u></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp stuck\"> \n   <tbody> \n    <tr> \n     <th colspan=\"2\">Регистрация</th> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНФ</td> \n     <td> <p>МЕСТО РАБОТЫ: НЕРАБОТАЮЩЕЕ НАСЕЛЕНИЕ ЦЕНТРАЛЬНОГО РАЙОНА</p> <p>ИНН/КПП: НЕТ/789456123</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе объединены данные из нескольких информационных массивов. Названия массивов перечислены через &quot;;&quot; \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>Хабаровск_Жители_2004; Хабаровск_Жители_2007; Хабаровск_Жители_2009</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ГЕРАСИМОВА 5 ШК 30 32</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>04ДВ279669</u></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp stuck\"> \n   <tbody> \n    <tr> \n     <th colspan=\"2\">Регистрация</th> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНФ</td> \n     <td> <p>МЕСТО РАБОТЫ: НЕРАБОТАЮЩЕЕ НАСЕЛЕНИЕ ЦЕНТРАЛЬНОГО РАЙОНА</p> <p>ИНН/КПП: НЕТ/789456123</p> <p>ПОЛИС_СЕРИЯ: 10100000</p> <p>ПОЛИС_НОМЕР: 428212</p> <p>ДАТА ВЫДАЧИ ПОЛИСА: 01.06.2001</p> <p>NDOG: 10100000</p> <p>МЕСТО РАБОТЫ: НЕРАБОТАЮЩЕЕ НАСЕЛЕНИЕ ЦЕНТРАЛЬНОГО РАЙОНА ИНН: НЕТ</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>Хабаровск_Жители_2009</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ИНСКИЙ 13 ТОГУ СТУД 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Старый паспорт</td> \n     <td> <p><u>0804429728</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Документ</td> \n     <td> <p><span>0810937741 ОТД. УФМС РОССИ ПО ХАБАРОВСКОМУ КРАЮ В ИНДУСТРИА 09.08.2010</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Телефоны</td> \n     <td> <p><span>9145447499</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp stuck\"> \n   <tbody> \n    <tr> \n     <th colspan=\"2\">Регистрация</th> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНФ</td> \n     <td> <p>СТРАХОВЩИК: \"РОСГОССТРАХ-ХАБАРОВСК-МЕДИЦИНА\"</p> <p>СЕРИЯ ПОЛИСА ОМС: Е0200000</p> <p>НОМЕР ПОЛИСА ОМС: 180452</p> <p>ДАТА НАЧАЛА СРОКА ДЕЙСТВИЯ: 02.10.2007</p> <p>ДАТА ОКОНЧАНИЯ СРОКА ДЕЙСТВИЯ: 31.12.2009</p> <p>СОЦИАЛЬНОЕ ПОЛОЖЕНИЕ: НЕРАБОТАЮЩИЙ</p> <p>ЛЬГОТНАЯ КАТЕГОРИЯ: НЕТ</p> <p>НОМЕР ДОГОВОРА: Е0200000</p> <p>СТРАХОВАТЕЛЬ: ПРАВИТЕЛЬСТВО ХАБАРОВСКОГО КРАЯ</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <h3 data-count=\"1\" class=\"bg  bg-info\"><i class=\"sprAnswer spr-question js_tooltip\" data-placement=\"left\" data-tooltiptext=\"Массив содержит нейтральную информацию \\hr В ответе подчёркнуты фрагменты (ФИО, даты рождения, адреса и т.д.), которые соответствуют заданным в запросе\"></i>Хабаровск_Жители_2010</h3> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp\"> \n   <tbody> \n    <tr> \n     <td class=\"legend\">ФИО</td> \n     <td> <p><u>ЕГОРОВ ВАСИЛИЙ ОЛЕГОВИЧ</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Дата рождения</td> \n     <td> <p><u>22.07.1990 г.</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Адрес</td> \n     <td> <p><span>ХАБАРОВСК ИНСКИЙ 13 ТОГУ СТУД 95</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Паспорт</td> \n     <td> <p><u>0810937741</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Старый паспорт</td> \n     <td> <p><u>0804429728</u></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Документ</td> \n     <td> <p><span>0810937741 ОТД. УФМС РОССИ ПО ХАБАРОВСКОМУ КРАЮ В ИНДУСТРИА 09.08.2010</span></p> </td> \n    </tr> \n    <tr> \n     <td class=\"legend\">Телефоны</td> \n     <td> <p><span>9145447499</span></p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n <div class=\"tableWrapper\"> \n  <table class=\"table striped exp stuck\"> \n   <tbody> \n    <tr> \n     <th colspan=\"2\">Регистрация</th> \n    </tr> \n    <tr> \n     <td class=\"legend\">ИНФ</td> \n     <td> <p>СТРАХОВАТЕЛЬ: ПРАВИТЕЛЬСТВО ХАБАРОВСКОГО КРАЯ</p> <p>НАЧАЛО СТРАХОВКИ: 22.03.2007</p> <p>КОНЕЦ СТРАХОВКМ: 31.12.2009</p> </td> \n    </tr> \n   </tbody> \n  </table> \n </div> \n</div>",
+            "maxLevel": "HIGH"
+          }
+        },
+        "report_meta": {
+          "check_person": {
+            "proceeding_v2": {
+              "executive_site_history": {
+                "src_meta": {
+                  "state": "PROGRESS",
+                  "detailed": ""
+                }
+              }
+            },
+            "wanted": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            },
+            "egrul": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            },
+            "egrul_inn": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            },
+            "egrip": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            },
+            "egrip_inn": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            },
+            "driver_quality_block": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            },
+            "pledge": {
+              "src_meta": {
+                "state": "PROGRESS",
+                "detailed": ""
+              }
+            }
+          }
+        },
+        "check_person/black_list_full": {
+          "src_meta": {
+            "state": "OK",
+            "detailed": ""
+          }
+        }
+      },
+      "last_generation_stat": {
+        "duration": 62232,
+        "start_time": "2021-10-18T12:30:10.932Z",
+        "complete_time": "2021-10-18T12:31:13.164Z"
+      },
+      "uid": "report_check_person_egrip_test_8052c060d3e83425ba631390068f1a5f@IP_koshenkov",
+      "name": "NONAME",
+      "comment": "",
+      "tags": "",
+      "created_at": "2021-10-18T12:30:10.892Z",
+      "created_by": "system",
+      "updated_at": "2021-10-18T12:31:13.175Z",
+      "updated_by": "system",
+      "active_from": "1900-01-01T00:00:00.000Z",
+      "active_to": "3000-01-01T00:00:00.000Z"
+    }
+  ]
+}
